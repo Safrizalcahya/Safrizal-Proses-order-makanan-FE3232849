@@ -14,7 +14,7 @@ halaman utama
 		menulis (menu tidak ada)
 		pergi ke (pilihan)
 	jika berakhir
-    
+
 pilihan 2
 	menulis (PORSI)
 	menulis (masukan pilihan anda)
@@ -27,3 +27,14 @@ pilihan 2
 	menulis (banyak pesanan anda)
 	masukan (bp)
 	baca	  (bp)
+
+pilihan 3
+	menulis (status pesanan)
+	menulis (masukan pilihan anda)
+	masukan (sp)
+	baca    (sp)
+
+	memasukan (sp <=0) atau (sp > 3) kemudian 
+		menuliskan (status pesanan tidak ada)
+		pergi ke (status pesanan tidak ada)
+	jika berakhir
