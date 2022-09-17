@@ -1,0 +1,16 @@
+Pseudocode:
+
+mm, p, bp, sp : integer
+hrg : double 
+diskon,pjk,th,byr:float
+
+halaman utama  
+	menulis (Daftar Menu Makanan)
+	menulis (masukan pilihan anda)
+	masukan (mm)
+	baca    (mm)
+ 
+		jika (mm <= 0) atau (mm > 3) kemudian
+		menulis (menu tidak ada)
+		pergi ke (pilihan)
+	jika berakhir
