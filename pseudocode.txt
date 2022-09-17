@@ -14,3 +14,16 @@ halaman utama
 		menulis (menu tidak ada)
 		pergi ke (pilihan)
 	jika berakhir
+    
+pilihan 2
+	menulis (PORSI)
+	menulis (masukan pilihan anda)
+	masukan (p)
+	baca    (p)
+			jika (p <= 0) atau (p > 3) kemudian
+			menulis  (porsi tidak ada)
+			pergi ke (pilihan 2)
+		jika berakhir	
+	menulis (banyak pesanan anda)
+	masukan (bp)
+	baca	  (bp)
