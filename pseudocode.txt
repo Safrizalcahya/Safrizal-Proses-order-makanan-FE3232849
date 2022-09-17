@@ -38,3 +38,51 @@ pilihan 3
 		menuliskan (status pesanan tidak ada)
 		pergi ke (status pesanan tidak ada)
 	jika berakhir
+
+jika (mm ==1) kemudian 
+	jika (p ==1) kemudian
+		hrg <- 15000
+	lain jika(p ==2) kemudian
+		hrg <- 20000
+	kalau tidak 
+	 	hrg <- 25000
+jika berakhir
+
+jika (mm ==2) kemudian 
+	jika (p ==1) kemudian
+		hrg <- 15000
+	lain jika(p ==2) kemudian
+		hrg <- 20000
+	kalau tidak 
+	 	hrg <- 25000
+jika berakhir
+
+jika (mm ==2) kemudian 
+	jika (p ==1) kemudian
+		hrg <- 30000
+	lain jika(p ==2) kemudian
+		hrg <- 40000
+	kalau tidak 
+	 	hrg <- 50000
+jika berakhir
+
+
+th <- bp*hrg
+	jika (sp == 1)kemudian 
+		pjk <- 10/100.*th 
+	kalau tidak
+		pjk <- 0 
+	berakhir jika
+	jika (mm ==2) dan (p == 3) kemudian 
+		diskon <- 5./100*th
+	kalau tidak 
+		diskon <- 0 
+	jika berakhir 
+
+byr <- th - tiskon + pjk
+menulis (total harga)
+menulis (diskon)
+menulis (pajak)
+menulis (bayar)
+
+selesai
